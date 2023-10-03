@@ -1,0 +1,202 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.News>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+	Layout = "_Layout.cshtml";
+}
+
+
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <title>Crito</title>
+        <link href="css/news.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- header section -->
+        <header>
+            <div class="container">
+            <a href="/"><img src="images/logotype.svg" alt="crito logatype"></a>
+            <button class="menu-bars"><i class="fa-solid fa-bars-staggered"></i></button>
+            <div class="menu">
+
+                <div class="top-menu">
+                    <div class="contact-information">
+                        <div class="content-box">
+                            <i class="fa-regular fa-phone-volume"></i>
+                            +46 (8) 121 470 50
+                        </div>
+
+                        <div class="content-box">
+                            <i class="fa-regular fa-envelope"></i>
+                            info@crito.com
+                        </div>
+
+                        <div class="content-box last">
+                            <i class="fa-regular fa-location-dot"></i>
+                            Sveavägen 31, 111 34 STOCKHOLM
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://facebook.com/"target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://instagram.com/"target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/"target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="main-menu">
+                    <nav>
+                        <a href="/">Home</a>
+                        <a href="/Services">Service</a>
+                        <a class="active" href="/News">News</a>
+                        <a href="/Contacts">Contact</a>
+                    </nav>
+                    <a class="btn-yellow btn-login" href="login.html">Login <i class="fa-regular fa-arrow-up-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+        </header>
+
+        <!-- Page Face -->
+        <section class="page-face">
+            <div class="links">
+            <a href="/">Home</a>
+            <a href="/News">News</a>
+            </div>
+            <div class="rubrik">
+                <h1>News & Articles</h1>
+            </div>
+            <img src="images/background-lines.svg" alt="aubfiyBE">
+        </section>
+   
+        <!-- News-Articles -->
+        <section class="news-articles">
+            <div class="container"> 
+                <div class="section-title">
+                    <h2>Our News & Articles</h2>
+                </div>
+                <div class="diferent-news-articles">
+                    <article>
+                        <a href="\Details"><img src="images/linkedin-sales-solutions-Mis5fyJi7Q0-unsplash.jpg" alt="news image"></a>
+                        <div class="days-mounths">
+                            <p class="day">25</p>
+                            <p class="month">mar</p>
+                        </div>
+                        <p class="rubrik">Business</p>
+                        <p class="big-size">How To Use Digitalization In The Classroom</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Archilecto sed hic libera.</p>
+                    </article>
+
+                    <article>
+                        <img src="images/emiliano-vittoriosi-vEN1bsdSjxM-unsplash.jpg" alt="news image">
+                        <div class="days-mounths">
+                            <p class="day">25</p>
+                            <p class="month">mar</p>
+                        </div>
+                        <p>Business</p>
+                        <p class="big-size">How To Implement Chat GPT In Your Projects</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Archilecto sed hic libera.</p>
+                    </article>
+                    <article>
+                        <img src="images/kobu-agency-ipARHaxETRk-unsplash.jpg" alt="news image">
+                        <div class="days-mounths">
+                            <p class="day">25</p>
+                            <p class="month">mar</p>
+                        </div>
+                        <p>Business</p>
+                        <p class="big-size">The Guide To Support Modern CSS Design</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Archilecto sed hic libera.</p>
+                    </article>
+                    <article>
+                        <img src="images/the-climate-reality-project-Hb6uWq0i4MI-unsplash.jpg" alt="news image">
+                        <div class="days-mounths">
+                            <p class="day">25</p>
+                            <p class="month">mar</p>
+                        </div>
+                        <p>Business</p>
+                        <p class="big-size">Why You Need To Implement The Five S's</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Archilecto sed hic libera.</p>
+                    </article>
+                    <article>
+                        <img src="images/damir-kopezhanov-nC6CyrVBtkU-unsplash.jpg" alt="news image">
+                        <div class="days-mounths">
+                            <p class="day">25</p>
+                            <p class="month">mar</p>
+                        </div>
+                        <p>Business</p>
+                        <p class="big-size">Get More INvolved With Your End Users</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Archilecto sed hic libera.</p>
+                    </article>
+                    <article>
+                        <img src="images/annie-spratt-FSFfEQkd1sc-unsplash.jpg" alt="news image">
+                        <div class="days-mounths">
+                            <p class="day">25</p>
+                            <p class="month">mar</p>
+                        </div>
+                        <p>Business</p>
+                        <p class="big-size">Guieded Tour Of Our New Head Office In Stockholm</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Archilecto sed hic libera.</p>
+                    </article>
+                    <article>
+                        <img src="images/carlos-muza-hpjSkU2UYSU-unsplash.png" alt="news image">
+                        <div class="days-mounths">
+                            <p class="day">25</p>
+                            <p class="month">mar</p>
+                        </div>
+                        <p>Business</p>
+                        <p class="big-size">Using Business Intelligence To Get Insights Into Our Businesses</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Archilecto sed hic libera.</p>
+                    </article>
+                    <article>
+                        <img src="images/marek-levak-zANXcXyByos-unsplash.png" alt="news image">
+                        <div class="days-mounths">
+                            <p class="day">25</p>
+                            <p class="month">mar</p>
+                        </div>
+                        <p>Business</p>
+                        <p class="big-size">Apple Has Released New Products. Are They Any Good?</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Archilecto sed hic libera.</p>
+                    </article>
+                    <article>
+                        <img src="images/oli-dale-xjSkI_seiZY-unsplash.png" alt="news image">
+                        <div class="days-mounths">
+                            <p class="day">25</p>
+                            <p class="month">mar</p>
+                        </div>
+                        <p>Business</p>
+                        <p class="big-size">How To Improve Your Teams And Get A Better Result</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Archilecto sed hic libera.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+                <!-- navigation between sites -->
+                <div class="navigation">
+                    <div class="container">
+                        <div class="content">
+                            <div><p><i class="fa-solid fa-angle-left"></i></p></div>
+                            <div><p>1</p></div>
+                            <div><p>2</p></div>
+                            <div><p>3</p></div>
+                            <div><p>...</p></div>
+                            <div><p>9</p></div>
+                            <div><p><i class="fa-solid fa-angle-right"></i></p></div>
+                        </div>
+                    </div>
+                </div>
+
+        <!-- News Updates -->
+    <div class="news-updates">
+        <div class="container">
+            <h2>Get News Updates By Signup</h2>
+            <div class="knapp">
+                <input type="text" placeholder="username@domain.com" name="uname" required>
+                <a class="btn-yellow btn-login" href="/">Subscribe <i class="fa-regular fa-arrow-up-right"></i></a>
+            </div>
+            <img src="images/background-wavy-lines.svg" alt="Gobona Logo">
+        </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,222 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.Details>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+	Layout = "_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <title>Crito</title>
+    <link href="css/details.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <div class="container">
+            <a href="/"><img src="images/logotype.svg" alt="crito logatype"></a>
+            <button class="menu-bars"><i class="fa-solid fa-bars-staggered"></i></button>
+            <div class="menu">
+
+                <div class="top-menu">
+                    <div class="contact-information">
+                        <div class="content-box">
+                            <i class="fa-regular fa-phone-volume"></i>
+                            +46 (8) 121 470 50
+                        </div>
+
+                        <div class="content-box">
+                            <i class="fa-regular fa-envelope"></i>
+                            info@crito.com
+                        </div>
+
+                        <div class="content-box last">
+                            <i class="fa-regular fa-location-dot"></i>
+                            Sveavägen 31, 111 34 STOCKHOLM
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="main-menu">
+                    <nav>
+                        <a href="/">Home</a>
+                        <a href="/Services">Service</a>
+                        <a class="active" href="/News">News</a>
+                        <a href="/Contacts">Contact</a>
+                    </nav>
+                    <a class="btn-yellow btn-login" href="/login">Login <i
+                            class="fa-regular fa-arrow-up-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Page Face -->
+    <section class="page-face">
+        <div class="links">
+            <a href="/">Home</a>
+            <a href="/News">News</a>
+        </div>
+        <div class="rubrik">
+            <h1>News & Articles</h1>
+        </div>
+        <img src="images/background-lines.svg" alt="aubfiyBE">
+    </section>
+
+    <!-- Details -->
+    <div class="details">
+        <div class="container">
+            <div class="first-box">
+                <div class="info-text">
+                    <h2>How To Use Digitalization In The Classroom</h2>
+                    <div class="year-mounth">
+                        <p>Mar25,2023</p><span class="dot"></span>
+                        <p>Business</p><span class="dot"></span>
+                        <p>Kimberly Hansen</p>
+                    </div>
+                </div>
+                <img src="images/linkedin-sales-solutions-Mis5fyJi7Q0-unsplash.jpg" alt="news image">
+                <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
+                    massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo
+                    magna eros quis urna.
+                </p>
+                <p class="text">Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin
+                    pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+                    uspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at
+                    sem venenatis eleifend. Ut nonummy.
+                </p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
+                    massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo
+                    magna eros quis urna. unc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant
+                    morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede.
+                    Mauris et orci.</p>
+                <p class="text">Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+                    Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at
+                    sem venenatis eleifend. Ut nonummy.
+                </p>
+                <p class="text-font"><i class="fa-sharp fa-solid fa-quote-right fa-flip-horizontal"></i>Lorem ipsum
+                    dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna
+                    sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
+                    massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo
+                    magna eros quis urna. unc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant
+                    morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+
+                <div class="text-with-shadow">
+                    <p>Digitalization</p>
+                    <p>School</p>
+                    <p>IT</p>
+                    <p>Design</p>
+                    <p>Work</p>
+                    <p>Tech</p>
+                </div>
+            </div>
+            <div class="secound-box">
+                <div class="knapp">
+                    <div class="search-box">
+                        <input type="text" placeholder="Type to search..." name="uname" required>
+                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="post-box">
+                    <h4>Recent Posts</h4>
+                    <div class="streck"></div>
+                    <p class="mork">How to Blow Through Capital At An Incredible Rate</p>
+                    <p class="ljust">Jan, 14, 2020</p>
+                    <hr>
+                    <p class="mork">Design Studios That Everyone Should Khnow About?</p>
+                    <p class="ljust">Jan, 14, 2020</p>
+                    <hr>
+                    <p class="mork">How did we get 1M+ visitors in 30 days without anything!</p>
+                    <p class="ljust">Jan, 14, 2020</p>
+                    <hr>
+                    <p class="mork">Figma On Figma: How We Built Our Website Design System</p>
+                    <p class="ljust">Jan, 14, 2020</p>
+                </div>
+                <div class="categories-box">
+                    <h3>Categories</h3>
+                    <div>
+                        <p>technology -</p>
+                        <p class="farg">20 posts</p>
+                    </div>
+                    <div>
+                        <p>Freelenceing -</p>
+                        <p class="farg">07 posts</p>
+                    </div>
+                    <div>
+                        <p>Writing -</p>
+                        <p class="farg">16 posts</p>
+                    </div>
+                    <div>
+                        <p>Marketing -</p>
+                        <p class="farg">11 posts</p>
+                    </div>
+                    <div>
+                        <p>Business -</p>
+                        <p class="farg">35 posts</p>
+                    </div>
+                    <div>
+                        <p>Education -</p>
+                        <p class="farg">14 posts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Artickel & News -->
+    <div class="article-and-news">
+        <div class="container">
+            <div class="top">
+                <div class="heading">
+                    <h6>Artickel & News</h6>
+                    <h2>Get Every Single Articles & News</h2>
+                </div>
+                <div class="heading">
+                    <a class="btn-browse" href="/">Browse Articles<i
+                    class="fa-solid fa-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="diferent-news-articles">
+                <article>
+                    <a href="/Details"><img src="images/linkedin-sales-solutions-Mis5fyJi7Q0-unsplash.jpg"
+                            alt="news image"></a>
+                    <p class="space">Business</p>
+                    <h3>How To Use Digitalization In The Classroom</h3>
+                    <p class="secound-space">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.</p>
+                </article>
+                <article>
+                    <img src="images/emiliano-vittoriosi-vEN1bsdSjxM-unsplash.jpg" alt="news image">
+                    <p class="space">Business</p>
+                    <h3>How To Implement Chat GPT In Your Projects</h3>
+                    <p class="secound-space">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.</p>
+                </article>
+                <article>
+                    <img src="images/kobu-agency-ipARHaxETRk-unsplash.jpg" alt="news image">
+                    <p class="space">Business</p>
+                    <h3>The Guide To Support Modern CSS Design</h3>
+                    <p class="secound-space">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.</p>
+                </article>
+            </div>
+            <div class="punkter">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
