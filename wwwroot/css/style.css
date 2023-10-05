@@ -971,23 +971,11 @@ header .container .menu .main-menu .btn-login {
   width: 300px;
   height: 300px;
 }
-.team-members .container .client-thoughts .float-members .diferent-members .stars {
-  display: inline;
-}
-.team-members .container .client-thoughts .float-members .diferent-members .stars .star {
-  font-size: 25px;
-}
-.team-members .container .client-thoughts .float-members .diferent-members .stars .checked {
-  color: #F94D1C;
-}
+
 .team-members .container .client-thoughts .float-members .diferent-members .what-client-says {
   display: flex;
 }
-.team-members .container .client-thoughts .float-members .diferent-members .what-client-says img {
-  width: 25px;
-  height: 25px;
-  border-radius: 100%;
-}
+
 .team-members .container .client-thoughts .float-members .diferent-members .what-client-says .namn {
   font-size: 20px;
   font-weight: 700;

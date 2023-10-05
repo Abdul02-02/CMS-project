@@ -13,7 +13,7 @@
 
 <head>
     <title>Crito</title>
-    <link href="css/contacts.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
 </head>
 
 <body>
@@ -66,8 +66,8 @@
     <!-- Page Face -->
     <section class="page-face">
         <div class="links">
-            <a href="index.html">Home</a>
-            <a href="contact.html">Contact</a>
+            <a href="/">Home</a>
+            <a href="/contacts">Contact</a>
         </div>
         <div class="rubrik">
             <h1>Let´s Connect</h1>
@@ -113,9 +113,11 @@
                 <input asp-for="@contactForm.Name" type="text" class="feedback-input" placeholder="Name*" />
                 <input asp-for="@contactForm.Email" type="email" class="feedback-input" placeholder="Email*" />
                 <textarea asp-for="@contactForm.Massage" class="feedback-input" placeholder="Your Message*"></textarea>
+                <div class="move-btn">
                 <button type="submit" class="btn-message">
                     Send Message <i class="fa-regular fa-arrow-up-right"></i>
                 </button>
+                </div>
             }
               
         </div>
